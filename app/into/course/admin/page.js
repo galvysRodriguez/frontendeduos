@@ -1,10 +1,10 @@
-import { GradesTable } from "./components/GradesTable";
+import { AdminCourseView } from "./components/AdminPage";
 
 
 export default function GradesPage() {
   return (
     <div className="container mx-auto py-10">
-      <GradesTable />
+      <AdminCourseView />
     </div>
   );
 }
